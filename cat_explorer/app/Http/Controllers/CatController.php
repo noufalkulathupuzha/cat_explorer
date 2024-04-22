@@ -13,7 +13,7 @@ class CatController extends Controller
      */
     public function index()
     {
-        $url = "https://api.api-ninjas.com/v1/cats?children_friendly=4";
+        $url = "https://api.api-ninjas.com/v1/cats?grooming=4";
         $apiKey = "DA3r2ia8jnxRfb9nDdrTWogc4WX4I7RKYpxXNcLl"; // Replace "YOUR_API_KEY" with your actual API key
     
         try {
